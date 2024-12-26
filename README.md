@@ -1,50 +1,60 @@
-# React + TypeScript + Vite
+# 🎨 3D Concepts with React Three Fiber  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my collection of **interactive 3D projects** built using **React Three Fiber** and **Three.js**. This repository showcases a growing list of small, creative concepts, each designed to highlight unique aspects of 3D graphics development.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Overview  
 
-## Expanding the ESLint configuration
+- 🖼️ A curated collection of small 3D projects, each exploring a specific concept.  
+- 🛠️ Beginner-friendly examples, perfect for learning and experimentation.  
+- 🧩 Modular and customizable for integration into larger projects.  
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## 📌 Current Concepts  
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### 1️⃣ **Rotating Cube**  
+- 🌀 Demonstrates rotation along the Y-axis.  
+- 📏 Features adjustable scaling and wireframe visualization.  
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### ✨ More exciting concepts coming soon...  
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 🔧 Technology Stack  
+
+- **React Three Fiber**: Simplifies 3D development with React components.  
+- **Three.js**: The powerhouse library for creating 3D graphics.  
+
+---
+
+## 🎯 Goals  
+
+🎯 My objective is to build **50-100 small 3D projects**, exploring:  
+- Basic 3D shapes and transformations.  
+- Animations, textures, and lighting.  
+- Advanced interactivity and real-world applications.  
+
+This collection is designed to inspire creativity and demonstrate the potential of web-based 3D graphics.  
+
+---
+
+## 🚀 How to Use  
+
+1. Clone this repository to your local machine.  
+2. Navigate through the individual project files in the `/src` directory.  
+3. Customize and integrate these concepts into your own projects.  
+
+---
+
+## 🤝 Contribution  
+
+Your ideas and feedback are welcome!  
+- 📝 Open an issue to suggest new ideas or improvements.  
+- 🔄 Submit a pull request to share your own 3D concepts.  
+
+---
+
+### 🛠️ Work in Progress  
+Stay tuned for more exciting updates! 🚀  
